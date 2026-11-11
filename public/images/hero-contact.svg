@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="contactSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040C1A" />
+      <stop offset="45%" stop-color="#0A1B36" />
+      <stop offset="85%" stop-color="#122F5C" />
+      <stop offset="100%" stop-color="#19427D" />
+    </linearGradient>
+    <linearGradient id="goldContact" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2E2" />
+      <stop offset="50%" stop-color="#C5A880" />
+      <stop offset="100%" stop-color="#937346" />
+    </linearGradient>
+    <linearGradient id="loungeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#102C57" />
+      <stop offset="50%" stop-color="#183F7A" />
+      <stop offset="100%" stop-color="#0B2042" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#contactSky)" />
+
+  <!-- Global Connectivity Wave Grid -->
+  <g stroke="#C5A880" stroke-opacity="0.1" stroke-width="1.5">
+    <ellipse cx="600" cy="350" rx="550" ry="240" fill="none" />
+    <ellipse cx="600" cy="350" rx="420" ry="170" fill="none" />
+    <ellipse cx="600" cy="350" rx="280" ry="100" fill="none" />
+    <line x1="600" y1="100" x2="600" y2="600" />
+    <line x1="150" y1="350" x2="1050" y2="350" />
+  </g>
+
+  <!-- 24/7 Concierge Central Signal Beacon -->
+  <g transform="translate(600, 240)">
+    <circle cx="0" cy="0" r="140" fill="#C5A880" fill-opacity="0.08" />
+    <circle cx="0" cy="0" r="70" fill="#E5D0B1" fill-opacity="0.15" />
+    <circle cx="0" cy="0" r="12" fill="#FFF2E2" />
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#C5A880" stroke-width="2" />
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#C5A880" stroke-width="1.5" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Twin Towers of Downtown and Marina Plaza -->
+  <!-- Left Tower (Boulevard Plaza Suite) -->
+  <g transform="translate(240, 260)">
+    <rect x="0" y="0" width="160" height="400" fill="url(#loungeGrad)" rx="6" />
+    <polygon points="80,-50 160,0 0,0" fill="url(#goldContact)" opacity="0.9" />
+    <g stroke="#C5A880" stroke-opacity="0.25" stroke-width="1.5">
+      <line x1="20" y1="50" x2="140" y2="50" />
+      <line x1="20" y1="100" x2="140" y2="100" />
+      <line x1="20" y1="150" x2="140" y2="150" />
+      <line x1="20" y1="200" x2="140" y2="200" />
+      <line x1="20" y1="250" x2="140" y2="250" />
+      <line x1="20" y1="300" x2="140" y2="300" />
+    </g>
+    <!-- Label -->
+    <rect x="20" y="330" width="120" height="28" rx="4" fill="#051020" fill-opacity="0.9" stroke="#C5A880" stroke-width="1" />
+    <text x="80" y="348" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#C5A880" text-anchor="middle">DOWNTOWN HQ</text>
+  </g>
+
+  <!-- Right Tower (Marina Plaza Waterfront Suite) -->
+  <g transform="translate(800, 280)">
+    <rect x="0" y="0" width="160" height="380" fill="url(#loungeGrad)" rx="6" />
+    <polygon points="80,-40 160,0 0,0" fill="url(#goldContact)" opacity="0.9" />
+    <g stroke="#C5A880" stroke-opacity="0.25" stroke-width="1.5">
+      <line x1="20" y1="50" x2="140" y2="50" />
+      <line x1="20" y1="100" x2="140" y2="100" />
+      <line x1="20" y1="150" x2="140" y2="150" />
+      <line x1="20" y1="200" x2="140" y2="200" />
+      <line x1="20" y1="250" x2="140" y2="250" />
+      <line x1="20" y1="300" x2="140" y2="300" />
+    </g>
+    <!-- Label -->
+    <rect x="20" y="310" width="120" height="28" rx="4" fill="#051020" fill-opacity="0.9" stroke="#C5A880" stroke-width="1" />
+    <text x="80" y="328" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#C5A880" text-anchor="middle">MARINA PLAZA</text>
+  </g>
+
+  <!-- High-Speed Communication Vector Beam Connecting Hubs -->
+  <path d="M 320,380 Q 600,240 880,400" fill="none" stroke="url(#goldContact)" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+  <path d="M 320,380 Q 600,240 880,400" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="8 8" opacity="0.9" />
+
+  <!-- Base -->
+  <rect x="0" y="660" width="1200" height="140" fill="#040C18" />
+  <line x1="0" y1="660" x2="1200" y2="660" stroke="url(#goldContact)" stroke-width="2.5" opacity="0.75" />
+
+  <!-- Contact Concierge Typography Banner -->
+  <g>
+    <rect x="60" y="690" width="510" height="75" rx="8" fill="#040C1A" fill-opacity="0.9" stroke="#C5A880" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="85" y="725" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="300" fill="#FFFFFF" letter-spacing="2">PRIVATE CLIENT &amp; INVESTOR CONCIERGE</text>
+    <text x="85" y="748" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#C5A880" letter-spacing="3">24/7 DIRECT WHATSAPP • DOWNTOWN &amp; MARINA SUITES</text>
+  </g>
+</svg>
+

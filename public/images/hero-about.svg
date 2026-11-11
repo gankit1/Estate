@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="aboutSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#051020" />
+      <stop offset="45%" stop-color="#0E2342" />
+      <stop offset="85%" stop-color="#153664" />
+      <stop offset="100%" stop-color="#1F4982" />
+    </linearGradient>
+    <linearGradient id="goldHq" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2E2" />
+      <stop offset="50%" stop-color="#C5A880" />
+      <stop offset="100%" stop-color="#8F6E3B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#aboutSky)" />
+  <circle cx="600" cy="240" r="260" fill="#C5A880" fill-opacity="0.08" />
+
+  <!-- Burj Khalifa Central Super-Spire Silhouette -->
+  <g>
+    <polygon points="600,30 615,660 585,660" fill="url(#goldHq)" opacity="0.9" />
+    <polygon points="600,10 603,80 597,80" fill="#FFF2E2" />
+    <!-- Spire tiers -->
+    <rect x="580" y="220" width="40" height="440" fill="#132B4F" rx="3" opacity="0.8" />
+    <rect x="565" y="340" width="70" height="320" fill="#0D2240" rx="4" opacity="0.85" />
+    <rect x="550" y="440" width="100" height="220" fill="#173562" rx="4" />
+    <!-- Spire Light Beacon -->
+    <circle cx="600" cy="15" r="8" fill="#FFF2E2" />
+    <circle cx="600" cy="15" r="24" fill="#C5A880" fill-opacity="0.3" />
+  </g>
+
+  <!-- Left: Boulevard Plaza Tower 1 (Pacific Star Headquarters) -->
+  <g transform="translate(240, 240)">
+    <polygon points="30,0 160,30 180,420 10,420" fill="#153664" />
+    <polygon points="30,0 160,30 160,420 30,420" fill="#1A437C" />
+    <!-- Horizontal glass louvers -->
+    <g stroke="url(#goldHq)" stroke-width="1.5" opacity="0.4">
+      <line x1="30" y1="40" x2="160" y2="70" />
+      <line x1="28" y1="90" x2="162" y2="120" />
+      <line x1="26" y1="140" x2="164" y2="170" />
+      <line x1="24" y1="190" x2="166" y2="220" />
+      <line x1="22" y1="240" x2="168" y2="270" />
+      <line x1="20" y1="290" x2="170" y2="320" />
+      <line x1="18" y1="340" x2="172" y2="370" />
+    </g>
+    <polygon points="30,0 95,-30 160,30" fill="url(#goldHq)" opacity="0.8" />
+    <!-- Headquarters Plaque Badge -->
+    <g transform="translate(35, 180)">
+      <rect x="0" y="0" width="120" height="40" rx="6" fill="#061325" fill-opacity="0.9" stroke="#C5A880" stroke-width="1.5" />
+      <text x="60" y="24" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#C5A880" text-anchor="middle" letter-spacing="1">SUITE 2401 HQ</text>
+    </g>
+  </g>
+
+  <!-- Right: Dubai Opera Architectural Dhow Curve -->
+  <g transform="translate(760, 380)">
+    <path d="M 0,280 Q 90,140 240,160 Q 280,220 300,280 Z" fill="#102C57" />
+    <path d="M 0,280 Q 90,140 240,160" fill="none" stroke="url(#goldHq)" stroke-width="3" opacity="0.8" />
+  </g>
+
+  <!-- Foreground Boulevard Base -->
+  <rect x="0" y="660" width="1200" height="140" fill="#040C18" />
+  <line x1="0" y1="660" x2="1200" y2="660" stroke="url(#goldHq)" stroke-width="2.5" opacity="0.7" />
+
+  <!-- About Us Typography Banner -->
+  <g>
+    <rect x="60" y="690" width="510" height="75" rx="8" fill="#051020" fill-opacity="0.9" stroke="#C5A880" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="85" y="725" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="300" fill="#FFFFFF" letter-spacing="2">PACIFIC STAR REALTY HEADQUARTERS</text>
+    <text x="85" y="748" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#C5A880" letter-spacing="3">BOULEVARD PLAZA 1 • DOWNTOWN DUBAI • EST. 2012</text>
+  </g>
+</svg>
+

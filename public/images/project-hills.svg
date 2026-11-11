@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="hillsSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E2447" />
+      <stop offset="70%" stop-color="#1B3A68" />
+      <stop offset="100%" stop-color="#2D5589" />
+    </linearGradient>
+    <linearGradient id="villaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="goldHills" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880" />
+      <stop offset="100%" stop-color="#9E7D52" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#hillsSky)" />
+  <!-- Sunset Glow -->
+  <circle cx="200" cy="220" r="160" fill="#C5A880" fill-opacity="0.15" filter="blur(40px)" />
+  <!-- Modern Villa Silhouette -->
+  <rect x="100" y="240" width="320" height="170" fill="url(#villaGrad)" rx="8" />
+  <rect x="360" y="190" width="280" height="220" fill="#F8FAFC" rx="8" />
+  <rect x="220" y="150" width="220" height="120" fill="#0A1C38" rx="6" />
+  <!-- Panoramic Cantilever Terrace -->
+  <rect x="80" y="230" width="240" height="15" fill="url(#goldHills)" rx="3" />
+  <rect x="340" y="180" width="310" height="15" fill="url(#goldHills)" rx="3" />
+  <!-- Glass Windows -->
+  <rect x="130" y="270" width="100" height="130" fill="#102C57" fill-opacity="0.85" rx="4" />
+  <rect x="250" y="270" width="90" height="130" fill="#102C57" fill-opacity="0.85" rx="4" />
+  <rect x="400" y="220" width="120" height="180" fill="#102C57" fill-opacity="0.85" rx="4" />
+  <rect x="540" y="220" width="80" height="180" fill="#102C57" fill-opacity="0.85" rx="4" />
+  <rect x="250" y="170" width="160" height="70" fill="#3B82F6" fill-opacity="0.25" rx="4" stroke="#C5A880" stroke-width="1.5" />
+  <!-- Private Pool -->
+  <rect x="60" y="420" width="680" height="40" fill="#0284C7" fill-opacity="0.75" rx="6" />
+  <rect x="0" y="440" width="800" height="60" fill="#0A1C38" />
+  <text x="40" y="475" font-family="'Cormorant Garamond', serif" font-size="28" fill="#F8F9FA" letter-spacing="1">DUBAILAND &amp; HILLS ESTATE</text>
+  <text x="40" y="493" font-family="'Inter', sans-serif" font-size="12" fill="#C5A880" letter-spacing="2">CONTEMPORARY MASTER TOWNHOUSES</text>
+</svg>
+

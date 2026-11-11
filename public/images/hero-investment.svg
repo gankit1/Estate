@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <!-- Midnight Wealth & Institutional Gradients -->
+    <linearGradient id="invSkyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050E1D" />
+      <stop offset="40%" stop-color="#0A1D3A" />
+      <stop offset="80%" stop-color="#112C57" />
+      <stop offset="100%" stop-color="#1B3D73" />
+    </linearGradient>
+
+    <!-- Emerald Wealth & Yield Accent Gradients -->
+    <linearGradient id="emeraldYield" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <!-- Champagne Gold Luxury Gradients -->
+    <linearGradient id="goldFinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5E5" />
+      <stop offset="30%" stop-color="#E8CEAA" />
+      <stop offset="70%" stop-color="#C5A880" />
+      <stop offset="100%" stop-color="#8C6E3F" />
+    </linearGradient>
+
+    <linearGradient id="chartGlow" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C5A880" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#C5A880" stop-opacity="0.45" />
+    </linearGradient>
+
+    <linearGradient id="finTowerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0C2142" />
+      <stop offset="60%" stop-color="#143465" />
+      <stop offset="100%" stop-color="#091A33" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1200" height="800" fill="url(#invSkyGrad)" />
+
+  <!-- Subtle Financial Coordinate Grid in Sky -->
+  <g stroke="#C5A880" stroke-opacity="0.08" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="800" />
+    <line x1="250" y1="0" x2="250" y2="800" />
+    <line x1="400" y1="0" x2="400" y2="800" />
+    <line x1="550" y1="0" x2="550" y2="800" />
+    <line x1="700" y1="0" x2="700" y2="800" />
+    <line x1="850" y1="0" x2="850" y2="800" />
+    <line x1="1000" y1="0" x2="1000" y2="800" />
+    <line x1="0" y1="150" x2="1200" y2="150" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="450" x2="1200" y2="450" />
+    <line x1="0" y1="600" x2="1200" y2="600" />
+  </g>
+
+  <!-- 06-Year Golden Visa Emblem Watermark (Right Background) -->
+  <g transform="translate(880, 260)" opacity="0.12">
+    <circle cx="0" cy="0" r="160" fill="none" stroke="#C5A880" stroke-width="3" stroke-dasharray="8 6" />
+    <circle cx="0" cy="0" r="130" fill="none" stroke="#C5A880" stroke-width="2" />
+    <polygon points="0,-80 25,-25 80,0 25,25 0,80 -25,25 -80,0 -25,-25" fill="#C5A880" />
+  </g>
+
+  <!-- DIFC & Business Bay High-Rise Financial Towers -->
+  <!-- Tower 1 (DIFC Gate Inspired Portal Silhouette) -->
+  <g fill="url(#finTowerGrad)">
+    <rect x="180" y="240" width="60" height="420" rx="3" />
+    <rect x="300" y="240" width="60" height="420" rx="3" />
+    <rect x="160" y="200" width="220" height="60" rx="4" fill="url(#finTowerGrad)" />
+    <!-- Gate Arch Opening -->
+    <rect x="240" y="260" width="60" height="400" fill="#061324" />
+    <!-- Gold Crown Header -->
+    <rect x="160" y="195" width="220" height="6" fill="url(#goldFinGrad)" />
+  </g>
+
+  <!-- Tower 2 (Center-Right Financial Spire) -->
+  <g>
+    <rect x="440" y="140" width="110" height="520" fill="url(#finTowerGrad)" rx="4" />
+    <polygon points="495,60 535,140 455,140" fill="url(#goldFinGrad)" opacity="0.9" />
+    <line x1="495" y1="30" x2="495" y2="60" stroke="#FFF5E5" stroke-width="3" />
+    <!-- Vertical Illumination -->
+    <line x1="495" y1="60" x2="495" y2="660" stroke="#C5A880" stroke-opacity="0.3" stroke-width="2" />
+  </g>
+
+  <!-- Tower 3 (Business Bay Canal Tower) -->
+  <g>
+    <rect x="620" y="180" width="130" height="480" fill="url(#finTowerGrad)" rx="4" />
+    <!-- Architectural Facade Grid -->
+    <g stroke="#C5A880" stroke-opacity="0.2" stroke-width="1.5">
+      <line x1="620" y1="230" x2="750" y2="230" />
+      <line x1="620" y1="280" x2="750" y2="280" />
+      <line x1="620" y1="330" x2="750" y2="330" />
+      <line x1="620" y1="380" x2="750" y2="380" />
+      <line x1="620" y1="430" x2="750" y2="430" />
+      <line x1="620" y1="480" x2="750" y2="480" />
+      <line x1="620" y1="530" x2="750" y2="530" />
+      <line x1="620" y1="580" x2="750" y2="580" />
+    </g>
+    <polygon points="685,120 730,180 640,180" fill="url(#goldFinGrad)" opacity="0.8" />
+  </g>
+
+  <!-- Tower 4 (Far Right Luxury Highrise) -->
+  <rect x="800" y="220" width="100" height="440" fill="url(#finTowerGrad)" rx="4" />
+  <line x1="850" y1="180" x2="850" y2="220" stroke="#C5A880" stroke-width="2" />
+
+  <!-- Dynamic Compounding ROI / Yield Growth Curve Line -->
+  <!-- Shaded Area Under Curve -->
+  <path d="M 120,620 Q 420,580 650,440 T 1080,180 L 1080,660 L 120,660 Z" fill="url(#chartGlow)" />
+  
+  <!-- Glowing Emerald & Gold Growth Vector -->
+  <path d="M 120,620 Q 420,580 650,440 T 1080,180" fill="none" stroke="url(#goldFinGrad)" stroke-width="5" stroke-linecap="round" />
+  <path d="M 120,620 Q 420,580 650,440 T 1080,180" fill="none" stroke="#34D399" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Growth Milestone Data Nodes -->
+  <!-- Point 1 -->
+  <circle cx="380" cy="565" r="7" fill="#0A1D3A" stroke="url(#goldFinGrad)" stroke-width="3" />
+  <!-- Point 2 -->
+  <circle cx="650" cy="440" r="8" fill="#0A1D3A" stroke="#34D399" stroke-width="3" />
+  <!-- Point 3 -->
+  <circle cx="880" cy="290" r="9" fill="#0A1D3A" stroke="url(#goldFinGrad)" stroke-width="3.5" />
+  <!-- Final Point with Pulse Halo -->
+  <circle cx="1080" cy="180" r="18" fill="#34D399" fill-opacity="0.25" />
+  <circle cx="1080" cy="180" r="10" fill="#FFF5E5" stroke="#059669" stroke-width="3" />
+
+  <!-- Floating Financial Tag at Peak -->
+  <g transform="translate(940, 120)">
+    <rect x="0" y="0" width="160" height="42" rx="8" fill="#061325" fill-opacity="0.9" stroke="#34D399" stroke-width="1.5" />
+    <text x="20" y="26" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#34D399">+14.8% YoY ROI</text>
+  </g>
+
+  <!-- Foreground Canal Water / Base -->
+  <rect x="0" y="660" width="1200" height="140" fill="#040C18" />
+  <line x1="0" y1="660" x2="1200" y2="660" stroke="url(#goldFinGrad)" stroke-width="3" opacity="0.85" />
+  
+  <g stroke="#C5A880" stroke-opacity="0.2" stroke-width="1.5">
+    <line x1="180" y1="700" x2="360" y2="700" />
+    <line x1="440" y1="710" x2="550" y2="710" />
+    <line x1="620" y1="705" x2="750" y2="705" />
+    <line x1="800" y1="715" x2="900" y2="715" />
+  </g>
+
+  <!-- Luxury Investment Advisory Typography Overlay -->
+  <g>
+    <rect x="60" y="690" width="510" height="75" rx="8" fill="#061325" fill-opacity="0.88" stroke="#C5A880" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="85" y="725" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="300" fill="#FFFFFF" letter-spacing="2">DUBAI INVESTMENT ADVISORY</text>
+    <text x="85" y="748" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#C5A880" letter-spacing="3">0% TAX HAVEN • 6.8%–8.6% GROSS YIELDS • GOLDEN VISA</text>
+  </g>
+</svg>
+

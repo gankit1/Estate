@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <!-- Ocean & Coastal Sky Gradients -->
+    <linearGradient id="oceanSkyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#04142B" />
+      <stop offset="35%" stop-color="#0B274F" />
+      <stop offset="70%" stop-color="#0E386E" />
+      <stop offset="100%" stop-color="#084B83" />
+    </linearGradient>
+
+    <!-- Turquoise Persian Gulf Waters -->
+    <linearGradient id="gulfWaterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E588A" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#083863" />
+      <stop offset="100%" stop-color="#031A33" />
+    </linearGradient>
+
+    <!-- Golden Sands & Island Gradients -->
+    <linearGradient id="islandGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF2E2" />
+      <stop offset="40%" stop-color="#E5C79E" />
+      <stop offset="80%" stop-color="#C5A880" />
+      <stop offset="100%" stop-color="#9C7948" />
+    </linearGradient>
+
+    <linearGradient id="golfGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#144A3A" />
+      <stop offset="50%" stop-color="#1D6D55" />
+      <stop offset="100%" stop-color="#0F382C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="1200" height="800" fill="url(#oceanSkyGrad)" />
+
+  <!-- Sun & Atmospheric Halo -->
+  <circle cx="950" cy="200" r="240" fill="#E5C79E" fill-opacity="0.08" />
+  <circle cx="950" cy="200" r="110" fill="#FFF2E2" fill-opacity="0.14" />
+
+  <!-- Distant Coastal Skyline (Burj Al Arab & Jumeirah Coastline Silhouette) -->
+  <g fill="#071E3D" opacity="0.5">
+    <path d="M100,380 L180,380 L180,330 L100,380 Z" />
+    <rect x="220" y="310" width="45" height="150" rx="2" />
+    <rect x="290" y="270" width="60" height="190" rx="3" />
+    <!-- Iconic Sail Silhouette (Burj Al Arab) -->
+    <path d="M420,380 L420,180 Q470,240 470,380 Z" fill="#0C2952" opacity="0.9" />
+    <line x1="420" y1="170" x2="420" y2="380" stroke="#C5A880" stroke-width="2.5" opacity="0.8" />
+    <line x1="410" y1="230" x2="455" y2="230" stroke="#C5A880" stroke-width="2" opacity="0.7" />
+    
+    <rect x="520" y="290" width="80" height="170" rx="3" />
+    <rect x="630" y="250" width="70" height="210" rx="3" />
+    <rect x="730" y="280" width="90" height="180" rx="3" />
+    <rect x="850" y="320" width="65" height="140" rx="2" />
+  </g>
+
+  <!-- Persian Gulf Sea Base -->
+  <rect x="0" y="440" width="1200" height="360" fill="url(#gulfWaterGrad)" />
+
+  <!-- Iconic Palm Jumeirah Archipelago Topography Geometric Illustration -->
+  <g transform="translate(620, 480)">
+    <!-- Outer Crescent Barrier Reef -->
+    <path d="M -380,180 C -380,-60 380,-60 380,180" fill="none" stroke="url(#islandGold)" stroke-width="18" stroke-linecap="round" opacity="0.85" />
+    <path d="M -360,170 C -360,-40 360,-40 360,170" fill="none" stroke="#04172E" stroke-width="6" opacity="0.6" />
+
+    <!-- Central Trunk -->
+    <rect x="-24" y="50" width="48" height="160" fill="url(#islandGold)" rx="8" />
+    <line x1="0" y1="50" x2="0" y2="210" stroke="#0B274F" stroke-width="4" />
+
+    <!-- Palm Fronds (Left Side) -->
+    <path d="M -15,70 C -120,40 -220,50 -260,80" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+    <path d="M -15,95 C -130,70 -240,80 -280,115" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+    <path d="M -15,120 C -140,100 -250,115 -290,150" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+    <path d="M -15,145 C -130,130 -230,150 -270,185" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+
+    <!-- Palm Fronds (Right Side) -->
+    <path d="M 15,70 C 120,40 220,50 260,80" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+    <path d="M 15,95 C 130,70 240,80 280,115" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+    <path d="M 15,120 C 140,100 250,115 290,150" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+    <path d="M 15,145 C 130,130 230,150 270,185" fill="none" stroke="url(#islandGold)" stroke-width="8" stroke-linecap="round" />
+
+    <!-- Island Luxury Villa Lights -->
+    <g fill="#FFF2E2" opacity="0.8">
+      <circle cx="-180" cy="55" r="3" />
+      <circle cx="-210" cy="90" r="3" />
+      <circle cx="-230" cy="125" r="3" />
+      <circle cx="180" cy="55" r="3" />
+      <circle cx="210" cy="90" r="3" />
+      <circle cx="230" cy="125" r="3" />
+    </g>
+  </g>
+
+  <!-- Left: Lush Golf Estate Green Sanctuary (Dubai Hills & Emirates Hills) -->
+  <g>
+    <path d="M0,520 Q160,500 280,560 Q340,590 380,680 L0,680 Z" fill="url(#golfGreen)" opacity="0.9" />
+    <!-- Fairway Contours -->
+    <path d="M0,570 Q140,540 240,590" fill="none" stroke="#C5A880" stroke-width="2" opacity="0.4" />
+    <path d="M30,620 Q160,590 270,640" fill="none" stroke="#C5A880" stroke-width="1.5" opacity="0.3" />
+    <!-- Luxury Villa Silhouettes in Greens -->
+    <rect x="70" y="525" width="35" height="25" fill="#C5A880" rx="3" opacity="0.8" />
+    <polygon points="65,525 87,510 110,525" fill="#E5C79E" />
+    <rect x="140" y="540" width="40" height="28" fill="#C5A880" rx="3" opacity="0.8" />
+    <polygon points="135,540 160,522 185,540" fill="#E5C79E" />
+  </g>
+
+  <!-- Yacht Silhouette on Coastal Waters (Dubai Marina) -->
+  <g transform="translate(180, 450)">
+    <path d="M 0,25 L 110,25 L 85,42 L 15,42 Z" fill="#FFFFFF" opacity="0.95" />
+    <polygon points="25,25 45,10 75,25" fill="#C5A880" />
+    <line x1="45" y1="5" x2="45" y2="25" stroke="#FFFFFF" stroke-width="2" />
+    <!-- Wake ripple -->
+    <line x1="85" y1="40" x2="160" y2="46" stroke="#C5A880" stroke-width="1.5" stroke-opacity="0.4" />
+  </g>
+
+  <!-- Horizon Wave Divider Line -->
+  <line x1="0" y1="440" x2="1200" y2="440" stroke="#C5A880" stroke-width="2" opacity="0.5" />
+
+  <!-- Luxury Community Guide Typography Overlay -->
+  <g>
+    <rect x="60" y="690" width="480" height="75" rx="8" fill="#04142B" fill-opacity="0.88" stroke="#C5A880" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="85" y="725" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="300" fill="#FFFFFF" letter-spacing="2">DUBAI NEIGHBORHOODS &amp; AREAS</text>
+    <text x="85" y="748" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#C5A880" letter-spacing="3">12 MASTER DISTRICTS • COASTAL, DOWNTOWN &amp; GOLF</text>
+  </g>
+</svg>
+
